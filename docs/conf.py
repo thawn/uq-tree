@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "UQ Decision Tree"
-copyright = "2026, UQ Tree Contributors"
-author = "UQ Tree Contributors"
+copyright = "2026, Moussa Kassem Sbeyti, Peter Steinbach, Alina Bazarova, Athar Khodabakhsh, Leon Tim Engelbert Sievers, and Contributors"
+author = "Moussa Kassem Sbeyti, Peter Steinbach, Alina Bazarova, Athar Khodabakhsh, Leon Tim Engelbert Sievers, and Contributors"
 release = "0.1.0"
 
 # -- General configuration ---------------------------------------------------
@@ -45,7 +45,7 @@ source_suffix = {
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
-html_title = "A Decision Tree for Practitioners Needing Uncertainty Quantification"
+html_title = "A Decision Tree for Uncertainty Quantification"
 
 # -- Options for LaTeX output ------------------------------------------------
 

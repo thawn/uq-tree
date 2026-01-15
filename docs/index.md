@@ -1,4 +1,4 @@
-# A Decision Tree for Practitioners Needing Uncertainty Quantification for Their Deep Learning Project
+# A Decision Tree for Uncertainty Quantification
 
 Welcome to the documentation for the UQ Decision Tree paper.
 
@@ -14,6 +14,7 @@ caption: Contents
 introduction
 methodology
 decision-tree
+method-cards
 case-studies
 conclusions
 references
@@ -24,6 +25,7 @@ references
 - [Introduction](introduction.md)
 - [Methodology](methodology.md)
 - [Decision Tree](decision-tree.md)
+- [Method Cards](method-cards.md)
 - [Case Studies](case-studies.md)
 - [Conclusions](conclusions.md)
 

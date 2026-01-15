@@ -1,5 +1,13 @@
 # References
 
+## Recent Survey Articles
+
+1. **Lopez, R., et al.** (2025). Uncertainty Quantification in Machine Learning. *PMLR*, Volume 287. Available at: [pmlr-v287-lopez25a](http://proceedings.mlr.press/)
+
+2. **Shi, Y., et al.** (2025). Advances in Uncertainty Quantification for Deep Learning. *Journal of Machine Learning Research*.
+
+3. **Xu, X., et al.** (2025). Uncertainty quantification methods in machine learning: A comprehensive review. *Information Sciences*, 115817.
+
 ## Key Papers on Uncertainty Quantification
 
 ### Foundational Work
@@ -34,9 +42,11 @@
 
 ### Aleatoric and Epistemic Uncertainty
 
-12. **Kendall, A., & Gal, Y.** (2017). What uncertainties do we need in Bayesian deep learning for computer vision? *Advances in Neural Information Processing Systems* (NeurIPS).
+12. **Kendall, A., & Gal, Y.** (2017). What uncertainties do we need in Bayesian deep learning for computer vision? *Advances in Neural Information Processing Systems* (NeurIPS). [arXiv:1703.04977](https://arxiv.org/abs/1703.04977)
 
-13. **Malinin, A., & Gales, M.** (2018). Predictive uncertainty estimation via prior networks. *Advances in Neural Information Processing Systems* (NeurIPS).
+13. **Nix, D. A., & Weigend, A. S.** (1994). Estimating the mean and variance of the target probability distribution. *IEEE International Conference on Neural Networks* (ICNN). [IEEE Xplore](https://ieeexplore.ieee.org/document/374138)
+
+14. **Malinin, A., & Gales, M.** (2018). Predictive uncertainty estimation via prior networks. *Advances in Neural Information Processing Systems* (NeurIPS).
 
 ### Applications and Case Studies
 
