@@ -2,7 +2,7 @@
 
 ## Recent Survey Articles
 
-1. **Lopez, R., et al.** (2025). Uncertainty Quantification in Machine Learning. *PMLR*, Volume 287. Available at: [pmlr-v287-lopez25a](http://proceedings.mlr.press/)
+1. **Lopez, R., et al.** (2025). Uncertainty Quantification in Machine Learning. *PMLR*, Volume 287.
 
 2. **Shi, Y., et al.** (2025). Advances in Uncertainty Quantification for Deep Learning. *Journal of Machine Learning Research*.
 

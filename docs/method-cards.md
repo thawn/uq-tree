@@ -14,7 +14,11 @@ The following table provides a quick overview of each method's characteristics. 
 
 ### Abstract
 
-Mean Variance Estimation (MVE) is a technique where a neural network is modified to output both a mean prediction $\mu(x)$ and a variance estimate $\sigma^2(x)$, modeling the target as a Gaussian distribution. By training with negative log-likelihood (NLL) loss instead of standard MSE for the example of regression, the network learns heteroscedastic (input-dependent) aleatoric uncertainty. A key property is "loss attenuation": the model automatically downweights high-uncertainty samples during training, making it robust to label noise.
+Mean Variance Estimation (MVE) is a technique where a neural network is modified to output both a mean prediction $\mu(x)$ and a variance estimate $\sigma^2(x)$, modeling the target as a Gaussian distribution.
+
+By training with negative log-likelihood (NLL) loss instead of standard MSE for the example of regression, the network learns heteroscedastic (input-dependent) aleatoric uncertainty.
+
+A key property is "loss attenuation": the model automatically downweights high-uncertainty samples during training, making it robust to label noise.
 
 **Key Resources:**
 
@@ -24,7 +28,9 @@ Mean Variance Estimation (MVE) is a technique where a neural network is modified
 
 ### Easy to Apply ★★★★☆
 
-MVE is conceptually simple and requires only minor architectural modifications: extending the output and changing the loss function to Gaussian NLL. No specialized libraries are needed. However, training can be sensitive to hyperparameters in more complex deep learning tasks such as object detection where you have to assign a weight to the loss, and a "warm-up" period (training only the mean first) is often necessary to avoid convergence issues where the variance inflates to explain poor mean estimates.
+MVE is conceptually simple and requires only minor architectural modifications: extending the output and changing the loss function to Gaussian NLL. No specialized libraries are needed.
+
+However, training can be sensitive to hyperparameters in more complex deep learning tasks such as object detection where you have to assign a weight to the loss. A "warm-up" period (training only the mean first) is often necessary to avoid convergence issues where the variance inflates to explain poor mean estimates.
 
 ### Data Compatibility ★★★★☆
 
